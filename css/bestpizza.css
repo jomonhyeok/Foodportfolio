@@ -1,0 +1,25 @@
+header{background:none; height: 150px;}
+header > div::after{content: ''; display: block; visibility: hidden; clear: both;}
+header > div img{float: left; margin-top: -5px;}
+header > div form{ margin-left: 300px; margin-top: 20px;}
+
+section:first-of-type{height: 300px; background: url(../imgbestpizza/bg01.jpg); background-size: cover;  text-align: center;}
+section:first-of-type div h1{line-height: 300px; font-size: 60px; font-family: 'Jua'; font-weight: 500; color: white;}
+
+section:nth-of-type(2){width: 1000px; margin: 100px auto;}
+section:nth-of-type(2) ul hr{margin: 40px 0; height: 2px; background-color: #0f4c81;}
+section:nth-of-type(2) ul li{font-family: 'Noto Sans KR';}
+section:nth-of-type(2) ul li::after{content: ''; display: block; visibility: hidden; clear: both;}
+section:nth-of-type(2) ul li img{float: left; width: 400px; height: 265px; margin-right: 70px; border-radius: 10px;}
+section:nth-of-type(2) ul li h2{margin-bottom: 15px; position: relative;}
+section:nth-of-type(2) ul li h2 a{font-size: 30px; font-weight: 600; text-decoration: none; color: black;}
+section:nth-of-type(2) ul li h2 strong{font-size: 16px; font-weight: 400; margin-left: 10px;}
+section:nth-of-type(2) ul li h2 span{color: red; position: absolute; right: 90px; font-size: 20px;}
+section:nth-of-type(2) ul li p:nth-of-type(1){font-size: 18px; color: #9b9b9b; margin-bottom: 30px;}
+section:nth-of-type(2) ul li p:not(:nth-of-type(1)){font-size: 20px;}
+section:nth-of-type(2) ul li p:last-of-type{margin-bottom: 130px;}
+section:nth-of-type(2) ul li > a{font-size: 20px; color: #9b9b9b; text-decoration: none;}
+
+
+
+

@@ -1,0 +1,61 @@
+header nav.top_menu div ul li, header label div span, footer, header nav.side_menu, header > div form input[type="text"], header > div form input[type="submit"]{font-family: 'Noto Sans KR';}
+.nonClick{background-color: black; opacity: 0.2;}
+
+div.progressBar{width: 100%; background-color: gray; height: 10px; position: fixed; left: 0; top: 0; z-index: 12;}
+div.innerbar{background-image: linear-gradient(to right,#fae1ff ,#d9dafe, #d9ffff ); height: 100%; z-index: 13; width: 0%;}
+
+header{position: relative;  padding-top: 89px; padding-bottom: 50px;}
+header div.slider{height: 900px;}
+header div.slider{position: absolute; left: 0; top: 0; z-index: -1;}
+header div.header_bg img{width: 100%; height: 100%; background-size: cover;}
+
+header nav.top_menu{position: fixed; top: 0; z-index: 9; background-color: white; width: 100vw; box-shadow: 0px 5px 30px black;}
+header nav.top_menu div{display: flex; align-items: center; justify-content: space-between; margin: 0 auto; width: 1170px;}
+header nav.top_menu div img{width: 15%;}
+header nav.top_menu div ul{display: flex; align-items: center; justify-content: center;}
+header nav.top_menu div ul li:not(:last-of-type){margin-right: 30px;}
+header nav.top_menu div ul li a{font-size: 18px; color: #0f4c81; text-decoration: none;}
+header nav.top_menu div input[type="button"]{background-color: tomato; border: none; height: 35px; width: 110px; font-size: 13px; color: white;}
+header > div.search_text{width: 1000px; margin: 0 auto; padding: 100px 0 140px 0;}
+header > div.search_text h1{text-align: center; color: white; margin: 60px 0 60px 0; font-family: 'Jua'; font-size: 40px; line-height: 50px;}
+header > div.search_text form{text-align: center; margin-left: 242px;}
+header > div.search_text form::after{content: ''; display: block; visibility: hidden; clear: both;}
+header > div.search_text form input{border: 4px solid #0f4c81;}
+header > div.search_text form input[type="text"]{width: 400px; border-radius:50px 0 0 50px; float: left; height: 40px; padding-left: 20px; font-size: 18px;}
+header > div.search_text form input[type="submit"]{background-color: #0f4c81; width: 100px; border-radius:0 50px 50px 0; float: left; height: 50px; font-size: 18px; font-weight: 700;}
+
+header input[type="checkbox"]{display: none;}
+header label{display: block; position: fixed; z-index: 10; left: 0px; top:40px; transition-duration: 1s; cursor: pointer;}
+header label div {position: relative; background-color: rgba(0,0,0,0.8); height: 100px; width: 50px; border-radius: 0 5px 5px 0;}
+header label div span{position: absolute; font-size: 18px; left: 16px; color: white;}
+header label span:nth-of-type(1){top: 13px;}
+header label span:nth-of-type(2){top: 31px; font-size: 20px;}
+header label span:nth-of-type(3){top: 50px;}
+header label span:nth-of-type(4){top: 70px;}
+header input[type="checkbox"]:checked ~ nav{left: 0px; transition-duration: 1s;}
+header input[type="checkbox"]:checked ~ label{left: 300px; transition-duration: 1s;}
+
+header nav.side_menu{position: fixed; left: -300px; top: 0; width: 250px; background:rgba(0,0,0,0.8); height: 100vh; padding: 25px; font-size: 18px; color: white; transition-duration: 1s; z-index: 10;}
+header nav.side_menu ul li img{width: 50%;}
+header nav.side_menu ul li{cursor: pointer;}
+header nav.side_menu ul li:first-of-type{margin-bottom: 20px;}
+header nav.side_menu ul li:not(:first-of-type){padding: 25px 0 25px 15px; border-bottom:1px hsla(0,0%,84.7%,.13) solid;}
+header nav.side_menu ul li:not(:first-of-type):hover{background: black;}
+
+footer{background-color: rgb(9, 29, 29); padding: 50px 0; color : white;}
+footer div.footer_wrap{width: 1170px; margin: 0 auto;}
+footer div div.footer_top ul{display: flex; justify-content: space-between;}
+footer div div.footer_top ul li h3{font-size: 18px; margin-bottom: 30px; color: tomato}
+footer div div.footer_top ul li p{width: 330px; font-size: 12px; line-height: 30px;}
+footer div div.footer_top ul li ol li{font-size: 12px; margin-bottom: 18px; cursor: pointer;}
+footer div div.footer_top ul li ol li span{width: 0px; visibility: hidden; height: 2px; display: block; background-color: white; margin-top: 7px; transition: 0.5s;}
+footer div div.footer_top ul li ol li:hover{color: tomato;}
+footer div div.footer_top ul li ol li:hover span{width: 80px; transition: 0.5s; visibility: visible;}
+footer div div.footer_top ul li form::after{display: block; content: ''; visibility: hidden; clear: both;}
+footer div div.footer_top ul li form input[type="text"]{width: 200px; height: 40px; padding-left: 20px; float: left; border: none; border-radius: 13px 0 0 13px;}
+footer div div.footer_top ul li form input[type="button"]{width: 80px; height: 42px; border: none; border-radius: 0 13px 13px 0; color: white; background-color: tomato;}
+footer hr{margin:50px 0 50px 0; border: 1px dotted white;}
+footer div div.footer_bottom{display: flex; justify-content: space-between;}
+footer div div.footer_bottom p{font-size: 12px; line-height: 20px;}
+footer div div.footer_bottom p:nth-child(2){text-align: right; cursor: pointer;}
+footer div div.footer_bottom p:nth-child(2):hover{color: tomato;}

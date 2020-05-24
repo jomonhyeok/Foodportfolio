@@ -1,0 +1,4 @@
+section:nth-of-type(1) ul li:nth-of-type(5){background: url(../img/FoodAsian.jpg)no-repeat; background-size: cover;}
+section:nth-of-type(1) ul li:nth-of-type(6){background: url(../img/FoodBBQ.jpg)no-repeat; background-size: cover; }
+section:nth-of-type(1) ul li:nth-of-type(7){background: url(../img/FoodPubBar.jpg)no-repeat; background-size: cover;}
+section:nth-of-type(1) ul li:nth-of-type(8){background: url(../img/FoodChinese.jpg)no-repeat; background-size: cover;}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script><!--jquery cdn-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> <!--bxslider cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- 부가적인 테마 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    
+    <script src="jquery/main.js"></script><!--jquery js-->
+    <link rel="stylesheet" href="css/import.css"><!--공통css-->
+    <link rel="stylesheet" href="css/page.css"> 
+    <link rel="stylesheet" href="css/bxslider.css"> <!--bxslider css-->
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="progressBar">
+        <div class="innerbar"></div>
+    </div>
+    <header>
+        <div class="slider">
+            <div class="header_bg">
+                <img src="img/headbackground.jpg" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <img src="img/headbackground02.jpg" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <img src="img/headbackground03.jpg" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <img src="img/headbackground04.jpg" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <img src="img/headbackground05.jpg" alt="headbackground">
+            </div>
+            <div class="header_bg">
+                <img src="img/headbackground06.jpg" alt="headbackground">
+            </div>
+        </div>
+        <nav class="top_menu">
+            <div>
+                <img src="img/mainlogo.png" alt="logo">
+                <ul>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#"> About</a></li>
+                    <li><a href="#"> Packages</a></li>
+                    <li><a href="#"> Blog</a></li>
+                    <li><a href="#"> Pages</a></li>
+                    <li><a href="#"> Contact</a></li>
+                </ul>
+                <input type="button" value="BOOK NOW" name="book">
+            </div>
+        </nav>
+        <div class="search_text">
+            <h1>맛있는 발견의 즐거움<br/> 최고의 미식 가이드</h1>
+            <form action="#">
+                <input type="text" placeholder="ex) 이태원 파스타" id="searchbar">
+                <input type="submit" value="검색">
+            </form>
+        </div>
+        <input type="checkbox" id="mnav" class="mui">
+            <label for="mnav">
+                <div>
+                    <span>M</span>
+                    <span>E</span>
+                    <span>N</span>
+                    <span>U</span>
+                </div>
+        </label>
+        <nav class="side_menu">
+            <ul>
+                <li>
+                    <img src="img/mainlogo.png" alt="logo">
+                </li>
+                <li>로그인</li>
+                <li>음식 종류별</li>
+                <li>인기 지역별</li>
+                <li>TOP LIST</li>
+                <li>개발자 PICK</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="introduce">
+        <div class="wrap">
+            <ul>
+                <li>
+                    <!-- <img src="img/introduce01.jpg" alt="introduce" title="introduec01"> -->
+                    <figure>
+                        <figcaption>
+                            <div>
+                                <img src="img/introduce01.png" alt="introduce">
+                                <h4>Traditional <br/> Cuisine</h4>
+                                <hr>
+                                <span>more</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- <div>
+                        <img src="img/introduce01.png" alt="introduce">
+                        <h4>Traditional <br/> Cuisine</h4>
+                        <hr>
+                        <span>more</span>
+                    </div> -->
+                    <span>1</span>
+                    <p>Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum a, commodo. Praesent faucibus malesuada faucibus. Donec laeet metus id laoreet malesuadarem ipsum dolor</p>
+                    <a href="#" class="btn_more">more</a>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <div>
+                                <img src="img/introduce02.png" alt="introduce">
+                                <h4>Kid’s & Vegan <br/> Menu</h4>
+                                <hr>
+                                <span>more</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <span>2</span>
+                    <p>Dasamus at magna non nunc tristique rhoncus. Kliquam nibh ante, egestas id dictum a, commodo. Praesent faucibus malesuada faucibus. Donec laeet metus id laoreet malesuadarem ipsumer</p>
+                    <a href="#" class="btn_more">more</a>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <div>
+                                <img src="img/introduce03.png" alt="introduce">
+                                <h4>Happy Hours <br/> & Offers</h4>
+                                <hr>
+                                <span>more</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <span>3</span>
+                    <p>Tervamus at magna non nunc tristique rhoncus. Oliquam nibh ante, egestas id dictum a, commodo. Iraesent faucibus malesuada faucibus. Donec laeet etus id laoreet malesuadarem ipsolo</p>
+                    <a href="#" class="btn_more">more</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="foodCategory">
+        <h2><a href="#">음식 종류별</a></h2>
+        <hr/>
+        <ul>
+            <li>
+                <img src="img/Foodwestern.jpg" alt="Foodwestern">
+                <a href="#">WESTERN</a>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+            </li>
+            <li>
+                <img src="img/Foodkorean.jpg" alt="Foodkorean">
+                <a href="#">KOREAN</a>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+            </li>
+            <li>
+                <img src="img/FoodCafeBakery.jpg" alt="FoodCafeBakery">
+                <a href="#">CAFE & BAKERY</a>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+            </li>
+            <li>
+                <img src="img/FoodJAPANESE.jpg" alt="FoodJAPANESE">
+                <a href="#">JAPANESE</a>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+                <div class="stack"></div>
+            </li>
+        </ul>
+
+        <div class="minusCategory">
+            <h2><a href="#">인기 지역별</a></h2>
+            <hr/>
+            <ul>
+                <li>
+                    <a href="#">강 남</a>
+                </li>
+                <li>
+                    <a href="#">가로수길</a>
+                </li>
+                <li>
+                    <a href="#">이 태 원</a>
+                </li>
+                <li>
+                    <a href="#">명 동</a>
+                </li>
+            </ul>
+
+            <h2><a href="#">TOP LIST</a></h2>
+            <hr/>
+            <ul>
+                <li>
+                    <a href="bestpizza.html">피자 맛집 베스트 10</a>
+                </li>
+                <li>
+                    <a href="#">카레 맛집 베스트 10</a>
+                </li>
+                <li>
+                    <a href="#">꼬치구이 맛집 베스트 10</a>
+                </li>
+                <li>
+                    <a href="#">수제버거 맛집 베스트 10</a>
+                </li>
+            </ul>
+        </div>
+        <span>더 보기</span>
+        <hr/>
+    </section>
+
+
+    <section class="foodlist">
+        <div class="foodlist_wrap">
+            <h2>WHAT PEOPLE SAY</h2>
+            <hr/>
+            <span class="overlay_close">X</span>
+            <div class="wrap">
+                    <ul>
+                        <li>
+                            <div class="slider">
+                                <!-- <div>
+                                    <img src="img/peopleSay00.jpg" alt="peopleSay">
+                                </div>
+                                <div>       
+                                    <img src="img/peopleSay01.jpg" alt="peopleSay">
+                                </div> -->
+                            </div>
+                            <h3>
+                                SOOT
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>
+                                톡톡 <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>파씨오네 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>이치에 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>로바타탄요 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>DOMA 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>콴안다오 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>알라프리마 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div  >
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>다로베 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div  >
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <h3>껠끄쇼즈 
+                                <span></span>
+                            </h3>
+                            <span>#이탈리안 #퓨전양식</span>
+                            <div  >
+                
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="chef">
+        <div>
+            <h2>MEET OUR CHEF</h2>
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quibusdam aliquid sapiente sed, tempore eum, maxime delectus quas deleniti praesentium suscipit, repudiandae doloribus nobis. Natus omnis iusto nemo quis consequuntur.</p>
+        </div>
+        <ul>
+            <li>
+                <img src="img/chef01.jpg" alt="chef01">
+                <div>
+                    <p>MATTHEW DIX <br> <span>Italian food</span></p>
+                    <p>카밀라제네리</p>
+                    <p>
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/starhalf.png" alt="starhalf">
+                        <span>4.5</span>
+                    </p>
+                    <p>서울특별시 강남구 도산대로15길 6</p>
+                    <p>
+                        amet consectetur adipisicing elit. Eaque dolorem nemo, 
+                        nesciunt maiores consectetur, at ducimus doloribus. Animi
+                        cupiditate reprehenderit ducimus commodi obcaecati consectetur?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/chef02.jpg" alt="chef02">
+                <div>
+                    <p>CHRISTOPHER <br> <span>Chinese food</span></p>
+                    <p>다운타우너</p>
+                    <p>
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <span>5.0</span>
+                    </p>
+                    <p>서울특별시 서초구 사평대로22</p>
+                    <p>
+                        perferendis sint ullam accusantium numquam laudantium 
+                        nesciunt maiores consectetur, at ducimus doloribus. Animi
+                        consectetur?  doloribu
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="img/chef03.jpg" alt="chef03">
+                <div>
+                    <p>MICHAEL <br> <span>BAKERY</span></p>
+                    <p>폴앤폴리나</p>
+                    <p>
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/star.png" alt="star">
+                        <img src="img/starhalf.png" alt="starhalf">
+                        <span>4.5</span>
+                    </p>
+                    <p>서울특별시 강남구 선릉로 757</p>
+                    <p>
+                        dipisicing elit. Eaque dolorem nemo, 
+                        perferendis sint ullam accusantium numquam laudantium 
+                        ium numquam laudantium 
+                        nesciunt maiores consectetur, at ducimus dolorib
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="map">
+        <div class="map_wrap">
+            <div>
+                <img src="img/map_icon.png" alt="">
+                <h2>OPEN MAP</h2>
+                <h2 class="text_delete">CLOSE MAP</h2>
+                <hr/>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.0459301756277!2d126.89028891564817!3d37.57753613125529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9912592209fd%3A0xda3d6dc85efbc29d!2stvN!5e0!3m2!1sko!2skr!4v1590136281892!5m2!1sko!2skr" width="1170" height="450" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <ul>
+                    <li>
+                        <h3>ABOUT US</h3>
+                        <p>Veri fastidii consectetuer ius in, eum alii dicunt omnium eu. Wisi nostrud equidem ut usu. Deleniti pertinacia eu est, te his soluta quaestio pericula.</p>
+                    </li>
+                    <li>
+                        <h3>NAVIGATION</h3>
+                        <ol>
+                            <li>About Us <span></span></li>
+                            <li>Useful Links <span></span></li>
+                            <li>Term of Use <span></span></li>
+                            <li>Contact Us <span></span></li>
+                            <li>Privacy <span></span></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <h3>NEWS LETTER</h3>
+                        <form action="#">
+                            <input type="text" placeholder="E - Mail">
+                            <input type="button" value="SEND">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <p>Copyright 2020, Design - YooCho<br/>All images have been purchased from YIY. Do not use the images in your website.</p>
+                <p>Design and coding<br> by Team Yoo</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 스크롤내려서 나올만한 section과 tomato부분(WHAT PEOPLE SAY) 
+        스크롤하기 sns
+        Top한번에 올라가는것
+    메뉴는 나중 -->
+</body>
+</html>
